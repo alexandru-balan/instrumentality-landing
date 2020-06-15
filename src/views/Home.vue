@@ -1,7 +1,7 @@
 <template>
 
   <!-- Main page wrapper component -->
-  <div class="home">
+  <div id="home-page">
 
     <!-- Page content -->
     <TypedHeader class="uk-text-center uk-margin-large-top" />

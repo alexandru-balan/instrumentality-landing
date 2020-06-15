@@ -1,5 +1,5 @@
 <template>
-    <div id="typed-header">
+    <div id="typed-header" class="uk-section uk-section-small">
         <h1 id="typewriter"></h1>
         <h2 id="subtitle" class="uk-animation-slide-bottom-medium">Your project management software with <span>superpowers!</span></h2>
     </div>
@@ -66,22 +66,22 @@ h1#typewriter {
 // What happens with laptops
 @media only screen and (min-width: 960px) {
     h1#typewriter {
-        font-size: 2.8em;
+        font-size: 3.2em;
     }
 
     #subtitle {
-        font-size: 1.7em;
+        font-size: 2em;
     }
 }
 
 // 4k displays
 @media only screen and (min-width: 2560px) {
     h1#typewriter {
-        font-size: 3.2em;
+        font-size: 3.6em;
     }
 
     #subtitle {
-        font-size: 2.2em;
+        font-size: 2.4em;
     }
 }
 

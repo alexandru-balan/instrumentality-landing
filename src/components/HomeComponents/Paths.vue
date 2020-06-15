@@ -3,7 +3,7 @@
         
         <!-- This next section describes the prices for using Instrumentality -->
         <h3 class="uk-text-center uk-margin-small-left uk-margin-small-right">Different paths in life might lead to the same place</h3>
-        <section class="uk-section uk-flex uk-flex-middle">
+        <section class="uk-section uk-section-small uk-flex uk-flex-middle">
             <PathCard v-bind:pathName="card1.pathName" v-bind:features="card1.features" v-bind:price="card1.price" />
             <PathCard v-bind:pathName="card2.pathName" v-bind:features="card2.features" v-bind:price="card2.price" />
             <PathCard v-bind:pathName="card3.pathName" v-bind:features="card3.features" v-bind:price="card3.price" />

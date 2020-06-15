@@ -2,6 +2,11 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 
+/**
+ * Lazy-loading routes
+ */
+const Updates = () => import('../views/Updates.vue');
+
 Vue.use(VueRouter)
 
   const routes = [
@@ -9,6 +14,12 @@ Vue.use(VueRouter)
     path: '/',
     name: 'Home',
     component: Home
+  },
+
+  {
+    path: '/updates',
+    name: 'Updates',
+    component: Updates
   }
 ]
 

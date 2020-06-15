@@ -1,5 +1,5 @@
 <template>
-    <div id="footer" class="uk-section">
+    <div id="footer" class="uk-section uk-section-small">
         <h3 class="uk-text-center">This project is made possible by</h3>
 
         <!-- This section credits all technologies used in making this application -->

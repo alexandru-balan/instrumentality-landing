@@ -1,7 +1,7 @@
 <template>
   <div id="home-main-section">
     <section
-      class="uk-section uk-section-xsmall uk-margin-medium-top"
+      class="uk-section uk-section-small uk-margin-small-top"
     >
       <!-- First Card -->
       <Card v-bind:imageSource="card1.image" v-bind:header="card1.header" v-bind:content="card1.content" v-bind:bgcolor="'background: #FF9650'" />
